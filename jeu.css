@@ -1,0 +1,98 @@
+@import url("picture/image1.jpg");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    height: 100;
+    background-image: url("picture/image2.jpg");
+    background-size: cover;
+    width: 100;
+
+}
+.gamers
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.client ,.ordi
+{
+    width: 10rem;
+    height: 6rem;
+    background-color: rgb(0, 41, 128);
+}
+.client .nature,   .ordi .nature
+{
+    background-color: white;
+    height: 2rem;
+}
+.client .nature p, .ordi .nature p
+{
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+.client .gamerValue, .ordi .computerValue
+{
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+}
+.result
+{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    background-color:#ffa16bb4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38rem;
+    margin-top: 5rem;
+}
+.result .resultValue
+{
+    font-size: 3rem;
+}
+
+.valueChoosen, .selectedVal
+{
+    height: 2rem;
+    width: 10rem;
+    font-size: 1rem;
+}
+.valueChoosen
+{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    padding: 10px;
+}
+.GO
+{
+    width: 5rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin: 20px;
+    margin-left: 70px;
+    background-color:#6bffa9;
+    border-radius: 19px;
+    outline: none;
+}
+.GO:hover
+{
+    background-color: rgb(0, 30, 128);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(255,255,255);
+    color: darkred;
+    text-align: center;
+    border-radius: 20px 10px 20px 10px;
+}
