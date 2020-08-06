@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url("picture/fond.jpg");
+    color: white;
+    height: 100;
+    font-weight: 100;
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1
+{
+    font-size: 4rem;
+    font-family: sans-serif;
+    color:#6b93ff;
+}
+.title h1 span
+{
+    font-style: italic;
+    color: green;
+    font-family: 'Pacifico';
+}
+.jeu 
+{
+    text-decoration: none;
+    color: green;
+    font-size: 4rem;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    background-color:#ffea6b ;
+    border-radius: 100%;
+    width: 9rem;
+    margin-left: 38rem;
+    height: 9rem;
+}
+.jeu p
+{
+    font-size: 2rem;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(255,255,255);
+    color: darkred;
+    text-align: center;
+    border-radius: 20px 10px 20px 10px;
+}
+
+.centre {
+    text-align: center;
+    background-color: rgba(255,255,255, .5); 
+    padding: 10px
+}
+.ab{
+    font-size: 50px
+}
